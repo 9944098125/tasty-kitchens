@@ -1,0 +1,46 @@
+.head-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #475569;
+  margin-left: 20px;
+}
+
+.quantity {
+  margin-left: 60px;
+}
+.cart-list {
+  padding-left: 0px;
+  width: 1110px;
+  left: 165px;
+  top: 144px;
+
+  background: #f9fbfe;
+  /* Main/Hover Light */
+
+  border: 1px solid rgba(11, 105, 255, 0.1);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 875px) {
+  .head-container {
+    display: none;
+  }
+  .cart-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+  }
+}
